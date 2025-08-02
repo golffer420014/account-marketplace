@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import { AuthSignIn } from '#components';
+
+</script>
+
 <template>
-    <div>sss</div>
+    <AuthSignIn/>
 </template>
