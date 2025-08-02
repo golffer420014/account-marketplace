@@ -49,7 +49,7 @@ const signInWithProvider = (provider: string) => {
         <!-- ฟอร์มหลัก -->
         <UForm @submit="handleSignIn" :state="form" class="space-y-4">
             <UFormField label="ชื่อผู้ใช้" name="username">
-                <UInput v-model="form.username" class="w-full" icon="i-lucide-user" type="text" placeholder="ชื่อผู้ใช้หรืออีเมล" required />
+                <UInput v-model="form.username" class="w-full" icon="i-lucide-user" type="text" placeholder="ชื่อผู้ใช้" required />
             </UFormField>
 
             <UFormField label="รหัสผ่าน" name="password">
